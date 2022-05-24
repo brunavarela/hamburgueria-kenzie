@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Nunito:ital,wght@0,200;0,300;1,200;1,300&display=swap");
+
+* {
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 139px;
+  padding: 10px 0px;
+
+  background: #f5f5f5;
+}
+
+.App-header img {
+  margin-top: 15px;
+}
+
+.App-header .search {
+  position: relative;
+}
+
+.App-header .search input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 20px;
+  margin-top: 8px;
+
+  width: 382px;
+  height: 60px;
+  left: 16px;
+  top: 65px;
+
+  background: #ffffff;
+
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #e0e0e0;
+}
+
+.App-header .search button {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+
+  width: 107px;
+  height: 40px;
+
+  /* color-primary */
+
+  background: #27ae60;
+  /* color-primary */
+
+  border: 2px solid #27ae60;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    width: 100vw;
+  }
+
+  .contanier-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 40px;
+
+   
+  }
+
+  .App-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  .App-header img {
+    margin-top: 15px;
+
+    margin-left: 100px;
+    
+  }
+
+  .App-header .search {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+    margin-right: 100px;
+
+  }
+
+  .App-header .search button {
+    bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .App-header .search {
+    margin-right: 230px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+
+  
+  .App-header img {
+    margin-left: 200px;
+    
+  }
+
+  .App-header .search {
+    margin-right: 200px;
+  }
+}

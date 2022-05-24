@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Nunito:ital,wght@0,200;0,300;1,200;1,300&display=swap");
+
+* {
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+}
+
+.liContainer {
+    
+}
+
+.liContainer .imgDiv {
+    display: flex;
+    justify-content: center;
+
+    width: 295px;
+    height: 150px;
+    
+    background: #F5F5F5;
+    
+}
+
+.liContainer .textDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    height: 214px;
+
+    padding: 20px;
+
+}
+
+.liContainer .textDiv h2 {
+    left: 0%;
+    right: 0%;
+    top: 16.67%;
+    bottom: -16.67%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+
+
+    color: #333333;
+}
+
+.liContainer .textDiv p {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 20%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+
+    /* grey-300 */
+
+    color: #828282;
+}
+
+.liContainer .textDiv span {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -33.33%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+
+    /* color-primary */
+
+    color: #27AE60;
+}
+
+.liContainer .textDiv button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+
+    width: 106px;
+    height: 40px;
+
+    /* color-primary */
+
+    background: #27AE60;
+    /* color-primary */
+
+    border: 2px solid #27AE60;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.liContainer .textDiv button:hover {
+    background-color: #93D7AF;
+    border: 2px solid #93D7AF;
+}
